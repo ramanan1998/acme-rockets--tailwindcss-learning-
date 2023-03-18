@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="sm:scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -22,13 +22,93 @@
         </section>
     </header>
     <main class="max-w-4xl mx-auto">
-        <section id="hero" class="flex justify-center flex-col-reverse gap-8 mb-12 p-6 sm:flex-row">
+        <section id="hero" class="scroll-mt-20 flex justify-center flex-col-reverse gap-8 mb-12 p-6 sm:flex-row">
             <article class="sm:w-1/2">
                 <h2 class="max-w-md text-4xl font-bold text-center sm:text-5xl sm:text-left text-slate-900 dark:text-white">We Boldy Go <span class="text-indigo-900 dark:text-indigo-300">Where No Rockets</span> Has Gone Before...</h2>
                 <p class="max-w-md text-2xl mt-4 text-center sm:text-left text-slate-700 dark:text-slate-400">We're building rockets for the next century today. From the Moon to Mars, Jupiter and beyond...</p>
                 <p class="max-w-md text-2xl mt-4 text-center sm:text-left text-slate-700 dark:text-slate-400">Think Acme Rockets.</p>
             </article>
             <img class="sm:w-1/2" src="./assets/rocketdab.png" alt="img">
+        </section>
+        <hr class="mx-auto bg-black dark:bg-white w-1/2">
+        <section id="rockets" class="p-6 my-12 scroll-mt-20">
+            <h2 class="text-4xl font-bold text-center sm:text-5xl mb-6 text-slate-900 dark:text-white">
+                Our Rockets
+            </h2>
+            <ul class="list-none justify-center my-12 flex items-center flex-col sm:flex-row gap-8">
+                <li class="w-2/2 sm:w-2/4 border border-solid border-slate-900 dark:border-gray-100 bg-white dark:bg-black py-6 px-2 flex flex-col items-center gap-5 rounded-3xl shadow-xl text-center">
+                    <img class="w-1/2" src="./assets/rocketman.png" alt="Explorer">
+                    <h3 class="text-3xl text-slate-900 dark:text-white">Explorer</h3>
+                    <p class="hidden sm:block text-3xl text-slate-500 dark:text-slate-400">$</p>
+                    <p class="sm:hidden text-2xl text-slate-500 dark:text-slate-400">Affordable Exploration</p>
+                </li>
+                <li class="w-2/2 sm:w-2/4 border border-solid border-slate-900 dark:border-gray-100 bg-white dark:bg-black py-6 px-2 flex flex-col items-center gap-5 rounded-3xl shadow-xl text-center">
+                    <img class="w-1/2" src="./assets/rocketride.png" alt="Adventurer">
+                    <h3 class="text-3xl text-slate-900 dark:text-white">Adventurer</h3>
+                    <p class="hidden sm:block text-3xl text-slate-500 dark:text-slate-400">$$</p>
+                    <p class="sm:hidden text-2xl text-slate-500 dark:text-slate-400">Best Selling Rocket</p>
+                </li>
+                <li class="w-2/2 sm:w-2/4 border border-solid border-slate-900 dark:border-gray-100 bg-white dark:bg-black py-6 px-2 flex flex-col items-center gap-5 rounded-3xl shadow-xl text-center">
+                    <img class="w-1/2" src="./assets/rocketlaunch.png" alt="Infinity">
+                    <h3 class="text-3xl text-slate-900 dark:text-white">Infinity</h3>
+                    <p class="hidden sm:block text-3xl text-slate-500 dark:text-slate-400">$$$</p>
+                    <p class="sm:hidden text-2xl text-slate-500 dark:text-slate-400">Luxury Starship</p>
+                </li>
+            </ul>
+        </section>
+        <hr class="mx-auto bg-black dark:bg-white w-1/2">
+
+        <section id="testimonials" class="p-6 my-12 scroll-mt-20">
+            <h2 class="text-4xl font-bold text-center sm:text-5xl mb-6 text-slate-900 dark:text-white">
+                Testimonials
+            </h2>
+            <figure class="my-12">
+                <blockquote class="bg-teal-700 text-left py-8 px-10 rounded-3xl relative">
+                    <p 
+                        class="text-2xl sm:text-3xl mt-2 text-white dark:text-slate-400 before:content-['\201C'] before:font-serif before:absolute before:top-0 before:left-0 before:text-7xl before:text-white before:opacity-25 before:transform before:translate-x-2 before:translate-y-2
+                        after:content-['\201D'] after:font-serif after:absolute after:top-auto after:left-auto after:text-7xl after:text-white after:opacity-25 after:transform after:translate-x-2 after:-translate-y-0.5
+                        ">
+                        Acme has always been there for me. Their Explorer rocket has arrived in a wooden crate as expected. Life long customer! A++ shopping experience.
+                    </p>
+                </blockquote>
+                <figcaption class="italic text-xl sm:text-2xl text-right mt-2 text-white dark:text-slate-400">&#8212;Wile E. Coyote, Genius.</figcaption>
+            </figure>
+            <figure class="my-12">
+                <blockquote class="bg-teal-700 text-left py-8 px-10 rounded-3xl relative">
+                    <p 
+                        class="text-2xl sm:text-3xl mt-2 text-white dark:text-slate-400 before:content-['\201C'] before:font-serif before:absolute before:top-0 before:left-0 before:text-7xl before:text-white before:opacity-25 before:transform before:translate-x-2 before:translate-y-2
+                        after:content-['\201D'] after:font-serif after:absolute after:top-auto after:left-auto after:text-7xl after:text-white after:opacity-25 after:transform after:translate-x-2 after:-translate-y-0.5
+                        ">
+                        The Acme Adventurer Rocket has thwarted my Illudium Q-36 Explosive Space Modulator on several occasions. <span class="italic">This makes me very, very angry!</span> Nevertheless, K-9 and I have awarded the Acme the martian cotract for space exploration rockets based on Acme's quality and sturdy designs.
+                    </p>
+                </blockquote>
+                <figcaption class="italic text-xl sm:text-2xl text-right mt-2 text-white dark:text-slate-400">&#8212;Marvin the Martian &amp; K-9</figcaption>
+            </figure>
+            <figure class="my-12">
+                <blockquote class="bg-teal-700 text-left py-8 px-10 rounded-3xl relative">
+                    <p 
+                        class="text-2xl sm:text-3xl mt-2 text-white dark:text-slate-400 before:content-['\201C'] before:font-serif before:absolute before:top-0 before:left-0 before:text-7xl before:text-white before:opacity-25 before:transform before:translate-x-2 before:translate-y-2
+                        after:content-['\201D'] after:font-serif after:absolute after:top-auto after:left-auto after:text-7xl after:text-white after:opacity-25 after:transform after:translate-x-2 after:-translate-y-0.5
+                        ">
+                        I knew I not only wanted &#8212; <span class="italic">I needed</span> &#8212; Acme's Infinity Rocket for my mission in space. Acme delivered in one day! Nothing says <q class="italic">Take me to your leader</q> like Acme's Infinity Rocket 💯
+                    </p>
+                </blockquote>
+                <figcaption class="italic text-xl sm:text-2xl text-right mt-2 text-white dark:text-slate-400">&#8212;Buzz Lightyear</figcaption>
+            </figure>
+        </section>
+        <hr class="mx-auto bg-black dark:bg-white w-1/2">
+
+        <section id="contact" class="p-6 my-12 scroll-mt-20">
+            <h2 class="text-4xl font-bold text-center sm:text-5xl mb-6 text-slate-900 dark:text-white">
+                Contact Us
+            </h2>
+            <form action="" class="max-w-4xl flex flex-col items-left gap-4 my-12 mx-auto">
+                <label class="text-2xl sm:text-3xl" for="subject">Subject:</label>
+                <input class="w-full text-black text-2xl sm:text-3xl p-3 rounded-xl border border-solid border-slate-900 dark:border-none" id="subject" name="subject" type="text" placeholder="Your Subject" required>
+                <label class="text-2xl sm:text-3xl" for="message">Message:</label>
+                <textarea class="w-full text-black text-2xl sm:text-3xl p-3 rounded-xl border border-solid border-slate-900 dark:border-none" id="message" name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+                <button class="bg-teal-700 hover:bg-teal-600 active:bg-teal-500 p-3 w-full rounded-xl text-xl border border-solid border-slate-900 dark:border-none">Submit</button>
+            </form>
         </section>
     </main>
 </body>
